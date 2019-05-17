@@ -1,0 +1,47 @@
+.container {
+    width: 960px;
+    margin: auto;
+	overflow: auto;
+}
+.line1,
+.line2,
+.line3,
+.line4,
+.line5 {
+    font-size: 16pt;
+    border: 1px solid rgb(70, 182, 163);
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+.line1 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.line2 {
+    font-size: 25pt;
+    font-family: 'Montserrat', sans-serif;
+}
+.line3 {
+    font-weight: lighter;
+}
+.line4 {
+    line-height: 2.5;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.line5 {
+    letter-spacing: 2px;
+}
+.ad {
+    font-size: 100px;
+}
+.ad:hover {
+    transform: scale(1.5);
+    color: rgb(123, 219, 219);
+}
+.line1:active {
+    color: red;
+}
+.line2:focus {
+    color: green;
+}
+
+
